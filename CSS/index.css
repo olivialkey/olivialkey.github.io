@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #fef9ef;
+}
+
+.header{
+    height: 10%;
+    width: 100%;
+    background-color:#2C5530;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center ;
+    text-decoration: none;
+}
+
+#avo {
+    margin-right: auto;
+    padding-left: 3rem;
+}
+.my-svg path {
+    fill: #FEF9EF;
+}
+@media screen and (max-width: 700px) {
+    #avo {
+        display: none;
+    }
+
+    .menu-items {
+        margin-right: 0;
+    }
+}
+
+.menu-items{
+    padding: 30px;
+    color: whitesmoke;
+}
+
+.menu-items a:link{
+    text-decoration: none;
+    color:whitesmoke;
+}
+
+.menu-items a:visited{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.menu-items a:hover,
+.menu-items:focus {
+    text-decoration: none;
+    color: #f0b131;
+    border: 1px solid white;
+}
+
+.menu-items a:active{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding-top: 1rem;
+}
+
+.mission {
+    width: 100%;
+    height: 8rem;
+    background-image: url(https://news.harvard.edu/wp-content/uploads/2019/09/leo-serrat_unsplash-1-1600x900.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;  
+    padding: .5rem;
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column;
+}
+@media screen and (max-width: 900px) {
+    .ms {
+        display: none;
+    }
+
+    .desc {
+        margin-right: 0;
+    }
+}
+.ms {
+    width: 100%;
+    color: whitesmoke;
+    font-weight: medium;
+    text-align: center;
+}
+
+.desc {
+    color:whitesmoke;
+    margin-bottom: .2rem;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.history{
+    margin: 2%;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+    height: 200px;
+    margin-left: 2%;
+    background-image: url(/images/logo.svg.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    padding: 1rem;
+}
+
+.text {
+    margin-bottom: .5rem;
+}
+
+.card-body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+h5 {
+    display: flex;
+    align-self:center ;
+}
+/*regions */
+
+.region {
+    text-align: center;
+    position: relative;
+    padding: 2rem;
+}
+
+.container2 {
+    margin: 0 auto;
+    background-color: #739E82;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#regionpics {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+#regionpics li {
+    margin:1rem;
+}
+
+ul#regionpics li a:hover img {
+    border: 4px solid yellow;
+}
+
+h4 {
+    margin-top: 0;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*form*/
+
+
+.learn{
+    text-align: center;
+    padding: 1rem;
+}
+
+.forum {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #739E82;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: larger;
+}
+
+label, input[type="email"], input[type="text"] {
+    margin-bottom: 10px;
+    flex-basis: 100%;
+    padding: 0.75rem;
+}
+
+button[type="submit"] {
+    width: 33%;
+    height: 50px;
+    font-size: 20px;
+    background-color: #2C5530;
+    color: white; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+button[type="submit"]:hover {
+    background-color: white;
+    color: black;
+}
+
+.footer{
+    margin-top: 1rem;
+    background-color: #2C5530;
+    display: flex;
+    flex-direction: row;
+    padding: 1.5rem;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: whitesmoke;
+    list-style: none;
+    gap: 20px;
+}
